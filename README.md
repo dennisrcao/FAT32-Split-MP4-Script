@@ -11,15 +11,14 @@ This script was part of a personal project [detailed on my website](https://www.
 
 Make sure you have `ffmpeg` installed on your system. You can install it using Homebrew:
 
-```bash
-brew install ffmpeg
+    ```bash
+    brew install ffmpeg
     ```
 
 1. **Clone the repository and cd into it**:
     ```bash
     git clone https://github.com/dennisrcao/FAT32-Split-MP4-Script.git
     cd FAT32-Split-MP4-Script
-
     ```
 
 2. **Create input and output folders **:
@@ -34,8 +33,8 @@ Add Larger MP4 files ( > 4GB) you want to split into "Videos"
 4. **Run the Script**:
 Make the script executable and run it:
     ```bash
-    chmod +x split.sh
-    ./split.sh
+    chmod +x script_split-mp4.sh
+    ./script_split-mp4.sh
     ```
 
 5. Segmented MP4 videos will be "Rendered"
