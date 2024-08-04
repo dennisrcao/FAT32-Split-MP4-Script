@@ -11,7 +11,7 @@ This script was part of a personal project [detailed on my website](https://www.
 
 Make sure you have `ffmpeg` installed on your system. You can install it using Homebrew:
 
-    ```bash
+    ```
     brew install ffmpeg
     ```
 
