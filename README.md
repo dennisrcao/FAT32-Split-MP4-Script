@@ -7,10 +7,13 @@ The script processes each MP4 file in the `Videos` folder (for >4GB MP4 files) a
 
 This script was part of a personal project [detailed on my website](https://www.denniscao.net/projects/digital-touch-grass?pageId=6d6267346431626667606630616c62666c306c36676d6667656362363167366c)
 
-## Prerequisites
+## Installation Instructions
 
+
+### Prerequisite:
 Make sure you have `ffmpeg` installed on your system. You can install it using Homebrew:
-    ```brew install ffmpeg```
+    ```bash
+    brew install ffmpeg```
 
 1. **Clone the repository and cd into it**:
     ```bash
