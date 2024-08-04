@@ -1,7 +1,7 @@
 # FAT32 Split MP4 Script
 
 ## Overview
-This script is designed to split large MP4 video files (>4GB) into smaller chunks (<4GB) to comply with the FAT32 file system limits.
+This script is designed to split large MP4 video files (> 4GB) into smaller chunks (< 4GB) to comply with the FAT32 file system limits.
 It is particularly useful for preparing videos to fit on a FAT32 formatted USB drive for devices like a Raspberry Pi to read.
 The script processes each MP4 file in the `Videos` folder (for >4GB MP4 files) and splits it into smaller segments saving the split files in the `Rendered` folder (< 4GB MP4 files FAT32 compatible).
 
@@ -12,7 +12,7 @@ This script was part of a personal project [detailed on my website](https://www.
 
 ### Prerequisite:
 Make sure you have `ffmpeg` installed on your system. You can install it using Homebrew:
-    ```bash
+    ```
     brew install ffmpeg
     ```
 
@@ -41,6 +41,7 @@ Make the script executable and run it:
     ```
 
 5. Segmented MP4 videos will be "Rendered"
+
 
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE)
