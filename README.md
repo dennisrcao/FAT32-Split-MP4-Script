@@ -10,7 +10,7 @@ This script was part of a personal project [detailed on my website](https://www.
 ## Prerequisites
 
 Make sure you have `ffmpeg` installed on your system. You can install it using Homebrew:
-    brew install ffmpeg
+    ```brew install ffmpeg```
 
 1. **Clone the repository and cd into it**:
     ```bash
