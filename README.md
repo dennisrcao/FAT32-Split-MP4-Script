@@ -42,6 +42,16 @@ Make the script executable and run it:
 
 5. Segmented MP4 videos will be "Rendered"
 
+### Run Renaming Script Instructions
+I left another script in there called `script_rename-mp4.sh` which renames every file in the directory it sits in with a random variable. This is useful in the application of putting a bunch of videos on a USB stick where you want to randomize the playback order.
+It's important that this script sits in the same folder as all the files you want to rename.
+
+In order to run it,
+    ```bash
+    chmod +x script_rename-mp4.sh
+    ./script_rename-mp4.sh
+    ```
+
 
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE)
